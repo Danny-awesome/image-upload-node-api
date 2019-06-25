@@ -1,0 +1,16 @@
+{
+  "name": "imageupload-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Danny-awesome",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.1",
+    "winston": "^3.2.1"
+  }
+}
