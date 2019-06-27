@@ -5,7 +5,7 @@ const router = express.Router();
 const crypto = require('crypto');
 const path = require('path');
 
-const file_path = 'public/images/uploads';
+const file_path = 'images/uploads';
 const storage = multer.diskStorage({
     destination: (req, file, callback) => {
         callback(null, file_path)

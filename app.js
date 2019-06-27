@@ -5,7 +5,7 @@ const app = express();
 const error = require('./error');
 const upload = require('./upload');
 
-app.use('/public/images/uploads', express.static('public/images/uploads'));
+app.use('/images/uploads', express.static('images/uploads'));
 app.use('/api/upload', upload);
 require('./logger')();
 app.use(error);
